@@ -11,6 +11,7 @@ export const Navbar = () => {
                 <Navelement element={<Link to="/about">About</Link>} />
                 <Navelement element={<Link to="/projects">Projects</Link>} />
                 <Navelement element={<Link to="/contact">Contact</Link>} />
+                <Navelement element={<Link to="/ecomerce">Ecomerce</Link>}/>
             </ul>
             <Outlet/>
         </nav>
